@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+</head>
+<body>
+
+  <h1>Formulario de reserva</h1>
+
+  <form id="formulario">
+
+    <label>
+      Nombre:
+      <input type="text" id="nombre">
+    </label>
+    <br><br>
+
+    <label>
+      Teléfono:
+      <input type="text" id="telefono">
+    </label>
+    <br><br>
+
+    <p>¿Viene con un acompañante?</p>
+
+    <label>
+      <input type="radio" name="acompanante" value="Sí"> Sí
+    </label>
+
+    <label>
+      <input type="radio" name="acompanante" value="No"> No
+    </label>
+
+    <br><br>
+
+    <p>Intolerancias y/o preferencias:</p>
+
+    <label>
+      <input type="checkbox" name="preferencias" value="Vegano"> Vegano
+    </label>
+
+    <label>
+      <input type="checkbox" name="preferencias" value="Vegetariano"> Vegetariano
+    </label>
+
+    <label>
+      <input type="checkbox" name="preferencias" value="Sin Gluten"> Sin Gluten
+    </label>
+
+    <label>
+      <input type="checkbox" name="preferencias" value="Sin Lactosa"> Sin Lactosa
+    </label>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+
+  <p id="mensaje"></p>
+</body>
+</html>
